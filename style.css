@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f1faee;
+
+
+}
+
+.homepage {
+    margin: 20px auto;
+    width: 720px;
+    height: 986px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero {
+    background: url(images/makurdi.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hero:hover {
+    background-image: url(images/mkd.jpg);
+}
+
+.night-img,
+.cruise-img,
+.cuisine-img {
+    border-radius: 50%;
+    border: 2px solid #e63946;
+}
+
+
+
+.title {
+    margin: 0 auto 5px auto;
+    background-color: #1d3557;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-info {
+    background-color: #457b9d;
+    margin: 0 auto;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/*=========activities-section=================*/
+.activities-section {
+    height: 343px;
+}
+
+.fun-activities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boat-cruise,
+.night-life,
+.local-cuisine {
+    border: 2px solid #a8dadc;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/*==========guide================*/
+.guide-section {
+    background: #ffffff;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.guide {
+    display: flex;
+    width: 400px;
+    background: #a8dadc;
+    padding: 10px;
+    border-bottom: 5px solid #e63946;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.guide-img {
+    border-radius: 5px;
+}
+
+.guide-info {
+    padding: 10px;
+    font-style: italic;
+}
